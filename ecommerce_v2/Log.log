@@ -1,0 +1,1484 @@
+2025-05-01 08:58:27 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        p1_0.id,
+        p1_0.avgRating,
+        p1_0.catagoryId,
+        p1_0.`description`,
+        p1_0.uuidUrl,
+        p1_0.imgUrl,
+        p1_0.informationId,
+        p1_0.originId,
+        p1_0.price,
+        p1_0.priceSale,
+        p1_0.product_code,
+        p1_0.productName,
+        p1_0.shortDesc 
+    from
+        ecommerce.`products` p1_0 
+    limit
+        ?, ? 
+2025-05-01 08:58:27 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        p1_0.id,
+        p1_0.avgRating,
+        p1_0.catagoryId,
+        p1_0.`description`,
+        p1_0.uuidUrl,
+        p1_0.imgUrl,
+        p1_0.informationId,
+        p1_0.originId,
+        p1_0.price,
+        p1_0.priceSale,
+        p1_0.product_code,
+        p1_0.productName,
+        p1_0.shortDesc 
+    from
+        ecommerce.`products` p1_0 
+    limit
+        ?, ? 
+2025-05-01 08:58:28 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 08:58:28 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        c1_0.customersId,
+        c1_0.address,
+        c1_0.city,
+        c1_0.country,
+        c1_0.customer_code,
+        c1_0.email,
+        c1_0.fullname,
+        c1_0.phone,
+        c1_0.postalcode 
+    from
+        ecommerce.`customers` c1_0 
+    limit
+        ?, ? 
+2025-05-01 08:58:28 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 08:58:28 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        c1_0.customersId,
+        c1_0.address,
+        c1_0.city,
+        c1_0.country,
+        c1_0.customer_code,
+        c1_0.email,
+        c1_0.fullname,
+        c1_0.phone,
+        c1_0.postalcode 
+    from
+        ecommerce.`customers` c1_0 
+    limit
+        ?, ? 
+2025-05-01 08:58:29 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 08:58:29 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    limit
+        ?, ? 
+2025-05-01 08:58:29 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 08:58:29 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 08:58:29 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 08:58:29 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 08:58:29 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 08:58:29 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    limit
+        ?, ? 
+2025-05-01 08:58:29 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 08:58:29 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 08:58:39 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 08:58:39 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    limit
+        ?, ? 
+2025-05-01 08:58:39 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 08:58:39 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 08:58:39 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 08:58:39 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 08:58:39 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 08:58:39 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    limit
+        ?, ? 
+2025-05-01 08:58:39 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 08:58:39 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:02:03 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        p1_0.id,
+        p1_0.avgRating,
+        p1_0.catagoryId,
+        p1_0.`description`,
+        p1_0.uuidUrl,
+        p1_0.imgUrl,
+        p1_0.informationId,
+        p1_0.originId,
+        p1_0.price,
+        p1_0.priceSale,
+        p1_0.product_code,
+        p1_0.productName,
+        p1_0.shortDesc 
+    from
+        ecommerce.`products` p1_0 
+    limit
+        ?, ? 
+2025-05-01 09:02:03 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        p1_0.id,
+        p1_0.avgRating,
+        p1_0.catagoryId,
+        p1_0.`description`,
+        p1_0.uuidUrl,
+        p1_0.imgUrl,
+        p1_0.informationId,
+        p1_0.originId,
+        p1_0.price,
+        p1_0.priceSale,
+        p1_0.product_code,
+        p1_0.productName,
+        p1_0.shortDesc 
+    from
+        ecommerce.`products` p1_0 
+    limit
+        ?, ? 
+2025-05-01 09:02:04 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 09:02:04 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        c1_0.customersId,
+        c1_0.address,
+        c1_0.city,
+        c1_0.country,
+        c1_0.customer_code,
+        c1_0.email,
+        c1_0.fullname,
+        c1_0.phone,
+        c1_0.postalcode 
+    from
+        ecommerce.`customers` c1_0 
+    limit
+        ?, ? 
+2025-05-01 09:02:04 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 09:02:04 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        c1_0.customersId,
+        c1_0.address,
+        c1_0.city,
+        c1_0.country,
+        c1_0.customer_code,
+        c1_0.email,
+        c1_0.fullname,
+        c1_0.phone,
+        c1_0.postalcode 
+    from
+        ecommerce.`customers` c1_0 
+    limit
+        ?, ? 
+2025-05-01 09:02:05 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 09:02:05 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    limit
+        ?, ? 
+2025-05-01 09:02:05 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:02:05 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:02:05 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 09:02:05 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:02:05 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:02:05 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    limit
+        ?, ? 
+2025-05-01 09:02:05 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:02:06 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:06:33 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        p1_0.id,
+        p1_0.avgRating,
+        p1_0.catagoryId,
+        p1_0.`description`,
+        p1_0.uuidUrl,
+        p1_0.imgUrl,
+        p1_0.informationId,
+        p1_0.originId,
+        p1_0.price,
+        p1_0.priceSale,
+        p1_0.product_code,
+        p1_0.productName,
+        p1_0.shortDesc 
+    from
+        ecommerce.`products` p1_0 
+    limit
+        ?, ? 
+2025-05-01 09:06:33 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 09:06:33 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    limit
+        ?, ? 
+2025-05-01 09:06:33 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        p1_0.id,
+        p1_0.avgRating,
+        p1_0.catagoryId,
+        p1_0.`description`,
+        p1_0.uuidUrl,
+        p1_0.imgUrl,
+        p1_0.informationId,
+        p1_0.originId,
+        p1_0.price,
+        p1_0.priceSale,
+        p1_0.product_code,
+        p1_0.productName,
+        p1_0.shortDesc 
+    from
+        ecommerce.`products` p1_0 
+    limit
+        ?, ? 
+2025-05-01 09:06:33 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:06:33 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:06:33 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 09:06:33 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    limit
+        ?, ? 
+2025-05-01 09:06:33 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:06:33 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:06:35 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        p1_0.id,
+        p1_0.avgRating,
+        p1_0.catagoryId,
+        p1_0.`description`,
+        p1_0.uuidUrl,
+        p1_0.imgUrl,
+        p1_0.informationId,
+        p1_0.originId,
+        p1_0.price,
+        p1_0.priceSale,
+        p1_0.product_code,
+        p1_0.productName,
+        p1_0.shortDesc 
+    from
+        ecommerce.`products` p1_0 
+    limit
+        ?, ? 
+2025-05-01 09:06:35 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        p1_0.id,
+        p1_0.avgRating,
+        p1_0.catagoryId,
+        p1_0.`description`,
+        p1_0.uuidUrl,
+        p1_0.imgUrl,
+        p1_0.informationId,
+        p1_0.originId,
+        p1_0.price,
+        p1_0.priceSale,
+        p1_0.product_code,
+        p1_0.productName,
+        p1_0.shortDesc 
+    from
+        ecommerce.`products` p1_0 
+    limit
+        ?, ? 
+2025-05-01 09:06:36 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 09:06:36 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        c1_0.customersId,
+        c1_0.address,
+        c1_0.city,
+        c1_0.country,
+        c1_0.customer_code,
+        c1_0.email,
+        c1_0.fullname,
+        c1_0.phone,
+        c1_0.postalcode 
+    from
+        ecommerce.`customers` c1_0 
+    limit
+        ?, ? 
+2025-05-01 09:06:36 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 09:06:36 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        c1_0.customersId,
+        c1_0.address,
+        c1_0.city,
+        c1_0.country,
+        c1_0.customer_code,
+        c1_0.email,
+        c1_0.fullname,
+        c1_0.phone,
+        c1_0.postalcode 
+    from
+        ecommerce.`customers` c1_0 
+    limit
+        ?, ? 
+2025-05-01 09:06:37 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 09:06:37 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    limit
+        ?, ? 
+2025-05-01 09:06:37 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:06:37 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:06:37 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 09:06:37 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:06:37 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:06:37 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    limit
+        ?, ? 
+2025-05-01 09:06:37 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:06:37 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:08:07 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 09:08:07 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        count(*) 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.id=? 
+2025-05-01 09:08:07 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    left join
+        ecommerce.`fileTable` fp1_0 
+            on fp1_0.uuid=a1_0.avatar 
+    where
+        a1_0.id=? 
+2025-05-01 09:08:07 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 09:08:07 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        count(*) 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.id=? 
+2025-05-01 09:08:07 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    left join
+        ecommerce.`fileTable` fp1_0 
+            on fp1_0.uuid=a1_0.avatar 
+    where
+        a1_0.id=? 
+2025-05-01 09:08:12 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 09:08:12 [http-nio-8080-exec-2] WARN  o.a.c.c.Request                                    - Creating the temporary upload location [C:\Users\admin\AppData\Local\Temp\tomcat.8080.13983692615414827189\work\Tomcat\localhost\ROOT] as it is required by the servlet [dispatcherServlet] 
+2025-05-01 09:08:12 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.email=? 
+2025-05-01 09:08:12 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:08:16 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    update
+        ecommerce.`account` 
+    set
+        UUIDKey=?,
+        `active`=?,
+        address=?,
+        CreateDate=?,
+        email=?,
+        avatar=?,
+        firstname=?,
+        lastname=?,
+        `otp`=?,
+        `password`=?,
+        phone=?,
+        `role`=?,
+        username=? 
+    where
+        id=? 
+2025-05-01 09:17:06 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        p1_0.id,
+        p1_0.avgRating,
+        p1_0.catagoryId,
+        p1_0.`description`,
+        p1_0.uuidUrl,
+        p1_0.imgUrl,
+        p1_0.informationId,
+        p1_0.originId,
+        p1_0.price,
+        p1_0.priceSale,
+        p1_0.product_code,
+        p1_0.productName,
+        p1_0.shortDesc 
+    from
+        ecommerce.`products` p1_0 
+    limit
+        ?, ? 
+2025-05-01 09:17:06 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        p1_0.id,
+        p1_0.avgRating,
+        p1_0.catagoryId,
+        p1_0.`description`,
+        p1_0.uuidUrl,
+        p1_0.imgUrl,
+        p1_0.informationId,
+        p1_0.originId,
+        p1_0.price,
+        p1_0.priceSale,
+        p1_0.product_code,
+        p1_0.productName,
+        p1_0.shortDesc 
+    from
+        ecommerce.`products` p1_0 
+    limit
+        ?, ? 
+2025-05-01 09:17:12 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 09:17:12 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    limit
+        ?, ? 
+2025-05-01 09:17:12 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:17:13 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:17:13 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    where
+        a1_0.username=? 
+2025-05-01 09:17:13 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:17:13 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:17:13 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        a1_0.id,
+        a1_0.UUIDKey,
+        a1_0.`active`,
+        a1_0.address,
+        a1_0.CreateDate,
+        a1_0.email,
+        a1_0.avatar,
+        a1_0.firstname,
+        concat(a1_0.firstname, ' ', a1_0.lastname),
+        a1_0.lastname,
+        a1_0.`otp`,
+        a1_0.`password`,
+        a1_0.phone,
+        a1_0.`role`,
+        a1_0.username 
+    from
+        ecommerce.`account` a1_0 
+    limit
+        ?, ? 
+2025-05-01 09:17:13 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 09:17:13 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        fp1_0.uuid,
+        fp1_0.imgdata,
+        fp1_0.imgname,
+        fp1_0.typeImg 
+    from
+        ecommerce.`fileTable` fp1_0 
+    where
+        fp1_0.uuid=? 
+2025-05-01 19:52:57 [http-nio-8080-exec-8] ERROR c.a.t.e.S.J.JwtUtils                               - JWT token is expired: JWT expired at 2025-05-01T07:38:09Z. Current time: 2025-05-01T12:52:57Z, a difference of 18888000 milliseconds.  Allowed clock skew: 0 milliseconds. 
+2025-05-01 19:52:57 [http-nio-8080-exec-8] ERROR c.a.t.e.S.J.AuthEntryPointJwt                      - Unauthorized error: Full authentication is required to access this resource 
+2025-05-01 19:52:57 [http-nio-8080-exec-4] ERROR c.a.t.e.S.J.JwtUtils                               - JWT token is expired: JWT expired at 2025-05-01T07:38:09Z. Current time: 2025-05-01T12:52:57Z, a difference of 18888482 milliseconds.  Allowed clock skew: 0 milliseconds. 
+2025-05-01 19:52:57 [http-nio-8080-exec-4] ERROR c.a.t.e.S.J.AuthEntryPointJwt                      - Unauthorized error: Full authentication is required to access this resource 
+2025-05-01 19:53:01 [http-nio-8080-exec-10] ERROR c.a.t.e.S.J.JwtUtils                               - JWT token is expired: JWT expired at 2025-05-01T07:38:09Z. Current time: 2025-05-01T12:53:01Z, a difference of 18892785 milliseconds.  Allowed clock skew: 0 milliseconds. 
+2025-05-01 19:53:01 [http-nio-8080-exec-10] WARN  o.a.c.c.Request                                    - Creating the temporary upload location [C:\Users\admin\AppData\Local\Temp\tomcat.8080.13983692615414827189\work\Tomcat\localhost\ROOT] as it is required by the servlet [dispatcherServlet] 
+2025-05-01 19:53:14 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        p1_0.id,
+        p1_0.avgRating,
+        p1_0.catagoryId,
+        p1_0.`description`,
+        p1_0.uuidUrl,
+        p1_0.imgUrl,
+        p1_0.informationId,
+        p1_0.originId,
+        p1_0.price,
+        p1_0.priceSale,
+        p1_0.product_code,
+        p1_0.productName,
+        p1_0.shortDesc 
+    from
+        ecommerce.`products` p1_0 
+    limit
+        ?, ? 
+2025-05-01 19:53:14 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        p1_0.id,
+        p1_0.avgRating,
+        p1_0.catagoryId,
+        p1_0.`description`,
+        p1_0.uuidUrl,
+        p1_0.imgUrl,
+        p1_0.informationId,
+        p1_0.originId,
+        p1_0.price,
+        p1_0.priceSale,
+        p1_0.product_code,
+        p1_0.productName,
+        p1_0.shortDesc 
+    from
+        ecommerce.`products` p1_0 
+    limit
+        ?, ? 
+2025-05-01 19:53:48 [http-nio-8080-exec-1] ERROR c.a.t.e.S.J.JwtUtils                               - JWT token is expired: JWT expired at 2025-05-01T07:38:09Z. Current time: 2025-05-01T12:53:48Z, a difference of 18939274 milliseconds.  Allowed clock skew: 0 milliseconds. 
+2025-05-01 19:53:48 [http-nio-8080-exec-1] ERROR c.a.t.e.S.J.AuthEntryPointJwt                      - Unauthorized error: Full authentication is required to access this resource 
+2025-05-01 19:53:48 [http-nio-8080-exec-8] ERROR c.a.t.e.S.J.JwtUtils                               - JWT token is expired: JWT expired at 2025-05-01T07:38:09Z. Current time: 2025-05-01T12:53:48Z, a difference of 18939280 milliseconds.  Allowed clock skew: 0 milliseconds. 
+2025-05-01 19:53:48 [http-nio-8080-exec-8] ERROR c.a.t.e.S.J.AuthEntryPointJwt                      - Unauthorized error: Full authentication is required to access this resource 
+2025-05-01 19:53:52 [http-nio-8080-exec-7] ERROR c.a.t.e.S.J.JwtUtils                               - JWT token is expired: JWT expired at 2025-05-01T07:38:09Z. Current time: 2025-05-01T12:53:52Z, a difference of 18943680 milliseconds.  Allowed clock skew: 0 milliseconds. 
+2025-05-01 19:53:52 [http-nio-8080-exec-7] ERROR c.a.t.e.S.J.AuthEntryPointJwt                      - Unauthorized error: Full authentication is required to access this resource 
+2025-05-01 19:53:52 [http-nio-8080-exec-10] ERROR c.a.t.e.S.J.JwtUtils                               - JWT token is expired: JWT expired at 2025-05-01T07:38:09Z. Current time: 2025-05-01T12:53:52Z, a difference of 18943684 milliseconds.  Allowed clock skew: 0 milliseconds. 
+2025-05-01 19:53:52 [http-nio-8080-exec-10] ERROR c.a.t.e.S.J.AuthEntryPointJwt                      - Unauthorized error: Full authentication is required to access this resource 
